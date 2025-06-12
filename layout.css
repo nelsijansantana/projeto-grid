@@ -1,0 +1,33 @@
+/* layout.css */
+.dashboard {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 180px 1fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main";
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr;
+  align-items: start;
+  padding: 0 32px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  min-height: 180px;
+  gap: 0;
+  position: relative;
+}
+
+.main-content {
+  grid-area: main;
+  padding: 32px;
+  background: #f4f6fa;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+} 

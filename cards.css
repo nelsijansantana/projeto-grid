@@ -1,0 +1,65 @@
+/* cards.css */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 20px 24px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 4px solid #ffc107;
+}
+
+.project-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.project-card p {
+  flex: 1;
+  margin: 0 0 16px 0;
+  color: #555;
+  font-size: 0.98rem;
+}
+
+.card-actions {
+  display: flex;
+  gap: 16px;
+  color: #333;
+  font-size: 1.3rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.fa-stack {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fa-stack-1x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.fa-stack-2x.fa-xs {
+  position: absolute;
+  left: 1.1em;
+  top: 1.1em;
+  font-size: 0.7em;
+  color: #333;
+} 

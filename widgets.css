@@ -1,0 +1,87 @@
+/* widgets.css */
+.announcements {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 18px 18px 18px 18px;
+  margin-bottom: 24px;
+}
+
+.announcements h4 {
+  margin: 0 0 12px 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.announcement-list {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 18px 16px;
+}
+
+.announcement-item strong {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #222;
+}
+
+.announcement-item p {
+  margin: 0 0 2px 0;
+  font-size: 0.97rem;
+  color: #444;
+}
+
+.announcement-list hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 14px 0;
+}
+
+.trending {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 18px 18px 18px 18px;
+}
+
+.trending h4 {
+  margin: 0 0 12px 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.trending-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.trending-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.trending-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #e0e7ef;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.trending-user {
+  font-weight: bold;
+  color: #222;
+  font-size: 1rem;
+}
+
+.trending-project {
+  color: #444;
+  font-size: 0.97rem;
+} 

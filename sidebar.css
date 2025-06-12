@@ -1,0 +1,38 @@
+/* sidebar.css */
+.sidebar {
+  grid-area: sidebar;
+  background: #2196f3;
+  color: #fff;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 24px 24px 24px;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sidebar-nav li:hover {
+  background: rgba(255,255,255,0.1);
+} 
