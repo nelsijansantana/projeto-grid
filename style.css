@@ -105,6 +105,7 @@ body {
   gap: 18px;
   justify-content: start;
   height: auto;
+  margin-top: 10px;
 }
 
 .header-left .fa-search {
@@ -183,13 +184,13 @@ body {
 }
 
 .header-btn-group {
-  display: grid;
-  grid-auto-flow: column;
+  position: absolute;
+  right: 32px;
+  bottom: 60px;
+  display: flex;
   gap: 32px;
-  margin-top: 18px;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  justify-content: flex-end;
 }
 
 .main-content {

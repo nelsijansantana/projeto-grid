@@ -1,13 +1,14 @@
 .header {
-  position: relative;
-}
-
-.header-btn-group {
-  position: absolute;
-  right: 32px;
-  bottom: 24px;
-  display: flex;
-  gap: 32px;
-  align-items: center;
-  justify-content: flex-end;
-}
+    position: relative;
+  }
+  
+  .header-btn-group {
+    position: absolute;
+    right: 32px;
+    bottom: 24px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
